@@ -1,0 +1,13 @@
+created basic_repo on Github
+created directory basic_repo on desktop
+git init
+touch test.txt
+add text to test.txt
+git add .
+git commit -m "initial commit"
+git remote add origin https://github.com/Jubhubmubfub/basic_repo.git
+git push -u origin master
+add more text to test.txt
+git add test.txt
+git commit -m "added more to test.txt"
+git push -u origin master
